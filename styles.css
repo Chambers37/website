@@ -22,6 +22,49 @@ main {
   width: 100%;
 }
 
+.about-main-section {
+  background-color: rgb(11, 46, 82);
+  height: 100%;
+  width: 100%;
+  color: floralwhite;
+}
+
+.about-main-section h2 {
+  padding: 0 10px;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.about-main-section h3 {
+  font-size: 1.6rem;
+  padding: 0 20px;
+}
+
+.about-main-section p {
+  font-size: 1.1rem;
+  padding: 0 20px;
+}
+
+.float-right {
+  margin: 5px 20px;
+  float: right;
+  width: 250px;
+  height: auto;
+}
+
+.float-left {
+  margin: 5px 20px;
+  float: left;
+  width: 250px;
+  height: auto;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid rgb(112, 119, 132);
+  border-radius: 5px;
+}
+
 .sides {
   width: 15%;
   background-color: rgb(18, 75, 133);
@@ -91,13 +134,15 @@ main {
 }
 
 #home-intro h2 {
+  font-size: 2rem;
   margin: 0;
-  padding: 20px 10px;
+  padding: 20px 20px;
 }
 
 #home-intro p {
   flex-wrap: wrap;
   font-size: 1.5rem;
+  padding: 20px;
 }
 
 #home-img {
@@ -122,6 +167,7 @@ main {
 }
 
 footer {
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
