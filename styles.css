@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  background-color: floralwhite;
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  height: 85px;
+  background-color: rgb(112, 119, 132);
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+#name {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#nav-links {
+  display: flex;
+  padding: 10px;
+}
+
+.links {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #444951;
+}
+
+.active {
+  text-decoration: underline;
+  color: #191b1d;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85px;
+  background-color: rgb(112, 119, 132);
+}
+
+footer a {
+  padding: 0 30px;
+  font-size: 3rem;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.icon-linkedin{
+  color: #0e76a8;
+}
+
+.icon-linkedin:hover {
+  color: #0b5c8a;  
+}
+
+.icon-github{
+  color: #333;
+}
+
+.icon-github:hover {
+  color: #555;
+}
+
+.icon-twitter{
+  color: #1DA1F2
+}
+
+.icon-twitter:hover {
+  color: #0d8ce2
+}
+
+/* footer a:hover {
+  color: red;
+} */
